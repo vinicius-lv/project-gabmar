@@ -1,0 +1,46 @@
+*{
+	font-family: arial;
+}
+#banner-sobre{
+	float: left;
+	width: 100%;
+	border-top: solid #FBD205 5px;
+	border-bottom: solid #F45E00 5px;
+	margin-bottom: 100px;
+}
+#banner-sobre img{
+	float: left;
+	width: 100%;
+}
+#conteudo-sobre{
+	float: left;
+	height: 500px;
+	width: 100%;
+	background-color: #FFF;
+}
+@media (max-width: 1200px){
+	#conteudo-sobre{
+		height: 680px;
+	}
+}
+#container-sobre{
+	float: left;
+	width: 100%;
+	height: 500px;
+}
+#container-sobre-img{
+	float: left;
+	margin-left: 20px;
+}
+#container-sobre-texto{
+	float: left;
+	font-weight: bold;
+	color: #676766;
+}
+#container-sobre-texto h1{
+	color: #F45E00;
+}
+#container-sobre-texto h2{
+	margin-top: 10px;
+	color: #424242;
+}

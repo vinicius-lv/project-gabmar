@@ -1,0 +1,78 @@
+@media only screen and (max-width: 650px){
+	#banner-home-2-botao{
+		width: 30%;
+		margin-top: 100px;
+	}
+	#banner-home-2-botao a{
+		margin-top: 20px;
+	}
+}
+@media only screen and (max-width: 650px){
+	#banner-contato-2-botao{
+		width: 30%;
+		margin-top: 100px;
+	}
+	#banner-contato-2-botao a{
+		margin-top: 20px;
+	}
+}
+@media only screen and (max-width: 500px){
+	#botao-produtos{
+		width: 80%;
+		margin-top: 50px;
+		margin-left: 50px;
+	}
+	#botao-produtos a{
+		width: 50%;
+	}
+}
+@media only screen and (max-width: 650px){
+	#banner-produtos-2-botao{
+		width: 30%;
+		margin-top: 100px;
+	}
+	#banner-produtos-2-botao a{
+		margin-top: 20px;
+	}
+}
+@media only screen and (max-width: 800px){
+	#container-promocoes{
+		height: 1250px;
+	}
+}
+@media only screen and (max-width: 1280px){
+	footer{
+		float: left;
+		width: 100%;
+		background-color: #3a3f46;
+		height: 300px;
+	}
+}
+@media only screen and (max-width: 700px){
+	footer{
+		float: left;
+		width: 100%;
+		background-color: #3a3f46;
+		height: 500px;
+	}
+}
+@media only screen and (max-width: 1280px){
+	#facebook{
+	height:80px; 
+	position:fixed; 
+	bottom: 25px; 
+	right: 400px; 
+	z-index:0;
+}
+}
+@media only screen and (max-width: 800px){
+	iframe{
+		width: 500px; 
+		height: 500px;
+		border: 0;
+}
+	#container-maps{
+		visibility: hidden;
+	}
+	}
+}

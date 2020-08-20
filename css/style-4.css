@@ -1,0 +1,80 @@
+*{
+	font-family: arial;
+}
+#banner-produtos{
+	float: left;
+	width: 100%;
+	border-top: solid #FBD205 5px;
+	border-bottom: solid #F45E00 5px;
+}
+#banner-produtos img{
+	float: left;
+	width: 100%;
+}
+#banner-produtos-2{
+	float: left;
+	width: 100%;
+	height: 280px;
+	background-color: #f9690f;
+}
+#banner-produtos-2-texto{
+	float: left;
+	width: 50%;
+	height: 10px;
+	color: #FFF;
+	margin-left: 40%;
+	margin-top: 38px;
+	font-weight: bold;
+}
+#banner-produtos-2-botao {
+	float: left;
+	background-color: #FBD205;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	line-height: 50px; 
+	font-size: 20px;
+	border-radius: 10px; 
+	margin-left: 40%;
+	margin-top: 8%;
+	transition:all 0.3s ease;
+}
+#banner-produtos-2-botao a{
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+#banner-produtos-2-botao:hover{
+	-webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#titulo-produtos{
+	margin-top: 0px;
+}
+#titulo-produtos h1{
+	text-align: center;
+	background-color: #F45E00;
+	color: #FFF;
+	font-family: 'Bitter', serif;
+}
+#conteudo-produtos{
+	float: left;
+	width: 100%;
+}
+.containers-salgados{
+	float: left;
+	width: 100%;
+	height: 200px;
+	border: solid 1px #F45E00;
+	padding: 10px; 
+}
+.containers-direita{
+	float: right;
+}
+.preco{
+	font-size: 30px;
+	float: left;
+	font-weight: bold;
+	color: #F45E00;
+}

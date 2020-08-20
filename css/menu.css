@@ -1,0 +1,100 @@
+*{
+	margin:0;
+	padding:0;
+}
+#topo{
+	width: 100%
+}
+#menu{
+	width: 100%;
+	height: 68px;
+	background-color: #F45E00;
+}
+#menu-font-bold{
+	font-weight: bold;
+}
+#menu ul{
+	list-style: none;
+	position: relative;
+}
+#menu ul li{
+	width: 155px;
+	float: left;
+}
+#menu a{
+	padding: 25px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background-color: #F45E00;
+	color: #FFFFFF;
+}
+#menu ul ul{
+	position: absolute;
+	visibility: hidden;
+}
+#menu ul li:hover ul{
+	visibility: visible;
+}
+#menu a:hover{
+	background-color: #FFFFFF;
+	color: #000000;
+}
+#menu ul ul li{
+	float: none;
+	border-bottom: solid 2px #F45E00;
+}
+#menu ul ul li a{
+	background-color: #969696;
+}
+label[for="menu-botao"]{
+	padding: 5px;
+	background-color: #F45E00;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+}
+#menu-botao{
+	display: none;
+}
+label[for="menu-botao"]{
+	display: none;
+}
+@media only screen and (max-width: 800px){
+	label[for="menu-botao"]{
+	display: block;
+	}
+	#menu-botao:checked ~ #menu{
+		margin-left: 0;
+	}
+	#menu{
+		margin-top: 5px;
+		margin-left: -100%;
+		transition: all .4s;
+	}
+	#menu ul li{
+		width: 100%;
+		float: none;
+	}
+	#menu ul ul{
+		position: static;
+		overflow: hidden;
+		max-height: 0;
+		transition: all .4s;
+	}
+	#menu ul li:hover ul{
+		height: auto;
+		max-height: 200px;
+	}
+}
+div span{
+	float: right;
+	margin:25 80;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: 'Bitter', serif;
+}
